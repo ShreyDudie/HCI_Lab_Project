@@ -1,3 +1,4 @@
+# Historical image recipe for recovery with the original backend directory as build context.
 FROM python:3.11-slim
 
 # Install system dependencies required by MediaPipe
