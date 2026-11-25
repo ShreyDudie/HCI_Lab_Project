@@ -32,3 +32,17 @@ backend-node/biometrics/
 Thumbs.db
 .playwright-cli/
 test-results/
+
+# Extra secret/data safeguards
+*.db
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+__pycache__/
+*.pyc
+face_embeddings/
+registered_faces/
+raw-archive/
+.env.*
+!.env.example
